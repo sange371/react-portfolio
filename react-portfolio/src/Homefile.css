@@ -1,5 +1,7 @@
 .portfolio-container{
-    background-color: rgb(0, 0, 0);
+    background-color: #010101;
+    height:100vh;
+    width:100%;
 }
 
 .grid-container{
@@ -10,11 +12,67 @@
     width:100%;
     height:500px;
 }
+.handles{
+    display:flex;
+    flex-direction: row;
+    gap:25px;
+    justify-content: center;
+
+    
+}
 .info{
     padding-top:120px;
+    color:gainsboro;
 }
-img{
-    padding-top:140px;
-    height:450px;
-    width:450px;
+.my-image{
+    
+    height:500px;
+    width:500px;
+    box-shadow:2px 2px 30px 30px  rgb(227, 126, 143) ;
+    border-radius:50%;
+   
+    
+}
+body{
+    background-color:#BA549D;
+}
+.containers{
+    background-color: rgb(0, 0, 0);
+}
+
+
+.instagram{
+    height:25px;
+    width:25px;
+    
+
+   
+}
+.github{
+    height:10px;
+    width:10px;
+    
+  
+}
+.linkedin{
+    height:30px;
+    width:30px;
+    margin:0;
+  
+    
+    
+
+}
+
+.handles  img:hover {
+    transform: scale(1.15);
+    box-shadow:2px 2px 10px 10px  rgb(227, 126, 143) ;
+}
+.my-image:hover{
+    transform: scale(1.15);
+    box-shadow:2px 2px 10px 10px  rgb(227, 126, 143) ;
+    border-radius:50%;
+}
+.navbar-nav a{
+    color:pink !important;
 }

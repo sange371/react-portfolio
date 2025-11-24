@@ -1,12 +1,13 @@
 import React from 'react';
+import './Homefile.css';
 
 
 
 export default function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container-fluid">
-        <a className="navbar-brand" to="/">Zusange Mbaleki</a>
+        <a className="navbar-brand" href="/">Zusange Mbaleki</a>
         <button
           className="navbar-toggler"
           type="button"
@@ -19,18 +20,18 @@ export default function Navbar() {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav">
+          <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" to="/">Home</a>
+              <a className="nav-link active" aria-current="page" href="/">Home</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" to="/about">About</a>
+              <a className="nav-link active" href="/about">About</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" to="/projects">Projects</a>
+              <a className="nav-link active" href="/projects">Projects</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" to="/contact">Contact</a>
+              <a className="nav-link active" href="/contact">Contact</a>
             </li>
           </ul>
         </div>
