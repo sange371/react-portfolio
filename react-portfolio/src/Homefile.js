@@ -10,12 +10,15 @@ import './Homefile.css'
 export default function Homefile(){
     return(
        
-        <div className="portfolio-container">
+        <div className="portfolio-container bg-dark">
             <Navbar/>
             <div className="grid-container">
                 <div className="info">
                     <h1>Hi, I'm Zusange Mbaleki</h1>
                     <h4>a Front-end developer learner at SheCodes</h4>
+                    <br/>
+                    <p>I’m a front-end developer with recent training from the SheCodes workshop.</p><p> I love creating clean, responsive websites that deliver a smooth user experience.
+                    </p>
                 </div>
                 <div className="self-image"> 
                     <img src={myImage} className="my-image img-fluid"alt="coding woman"/>
