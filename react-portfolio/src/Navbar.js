@@ -5,7 +5,7 @@ import './Homefile.css';
 
 export default function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav className="navbar navbar-expand-lg navbar-dark ">
       <div className="container-fluid">
         <a className="navbar-brand" href="/">Zusange Mbaleki</a>
         <button
