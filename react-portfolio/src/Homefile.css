@@ -1,5 +1,5 @@
 .portfolio-container{
-    background-color: #1A1A1A;
+    background-color:rgb(251, 205, 213) !important;
     height:100vh;
     width:100%;
 }
@@ -22,22 +22,24 @@
 }
 .info{
     padding-top:120px;
-    color:gainsboro;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(251, 134, 154);
+    font-family:fantasy;
     
 }
 .my-image{
     
-    height:500px;
-    width:500px;
-    box-shadow:2px 2px 30px 30px  rgb(227, 126, 143) ;
-    border-radius:50%;
+    height:300px;
+    width:320px;
+    box-shadow:2px 2px 20px 20px  rgb(244, 217, 221) ;
+    border-radius:30%;
+    
    
     
 }
 h1{
     font-size:80px !important;
-    color:rgb(252, 106, 131) !important;
+    color:rgb(251, 134, 154)!important;
+    font-family:fantasy !important;
 }
 
 .containers{
@@ -48,42 +50,68 @@ h1{
 .instagram{
     height:25px;
     width:25px;
-    
-
    
 }
 .github{
     height:10px;
-    width:10px;
-    
+    width:10px;  
   
 }
+
 .linkedin{
     height:30px;
     width:30px;
-    margin:0;
-  
-    
-    
+    margin:0;      
 
 }
 
 .handles  img:hover {
     transform: scale(1.15);
-    box-shadow:2px 2px 10px 10px  rgb(227, 126, 143) ;
+    box-shadow:2px 2px 8px 8px  white ;
 }
 .my-image:hover{
     transform: scale(1.15);
-    box-shadow:2px 2px 10px 10px  rgb(227, 126, 143) ;
-    border-radius:50%;
+    box-shadow:2px 2px 8px 8px  white ;
+   
 }
 .navbar-nav a{
-    color:rgb(232, 120, 138) !important;
-    font-size:16px !important;
+    color:rgb(239, 86, 111) !important;
+    font-size:20px !important;
    
 }
 .navbar-nav a:hover{
-    color:pink !important;
+    color:white !important;
     font-size:20px !important;
+}
+.navbar{
+    background-color: rgb(253, 196, 206) !important;;
+}
+.navbar-brand{
+    color:rgb(239, 86, 111) !important;
+    font-size:20px !important;
+}
+.contact-me{
+    color:white;
+    text-decoration:none;
+    padding-right:10px;
+}
+.my-work{
+    color:white;
+    text-decoration:none;
+    margin-left:10px;
+    
+}
+.contact-btn{
+    background-color: rgb(227, 126, 143);
+    margin-right:10px;
+    padding:10px 15px;
+    border-radius:8px;
+    border:1px solid white;
+}
+.work-btn{
+    background-color: rgb(227, 126, 143);
+    padding:10px 15px;
+    border-radius:8px;
+    border:1px solid white;
 }
 
