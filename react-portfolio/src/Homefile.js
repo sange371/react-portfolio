@@ -25,8 +25,6 @@ export default function Homefile(){
                 </div>
                 <div className="self-image"> 
                     <img src={myImage} className="my-image img-fluid" alt="coding woman"/>
-                   
-                    
                 </div>
                 
                 <div className="handles">
